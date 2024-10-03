@@ -24,9 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A60652C42CAF352F0091EE9F /* Poppy Diary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Poppy Diary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A60652D42CAF35300091EE9F /* Poppy DiaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Poppy DiaryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A60652DE2CAF35300091EE9F /* Poppy DiaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Poppy DiaryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A60652C42CAF352F0091EE9F /* PoppyDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoppyDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A60652D42CAF35300091EE9F /* PoppyDiaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoppyDiaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A60652DE2CAF35300091EE9F /* PoppyDiaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoppyDiaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -85,9 +85,9 @@
 		A60652C52CAF352F0091EE9F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A60652C42CAF352F0091EE9F /* Poppy Diary.app */,
-				A60652D42CAF35300091EE9F /* Poppy DiaryTests.xctest */,
-				A60652DE2CAF35300091EE9F /* Poppy DiaryUITests.xctest */,
+				A60652C42CAF352F0091EE9F /* PoppyDiary.app */,
+				A60652D42CAF35300091EE9F /* PoppyDiaryTests.xctest */,
+				A60652DE2CAF35300091EE9F /* PoppyDiaryUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A60652C32CAF352F0091EE9F /* Poppy Diary */ = {
+		A60652C32CAF352F0091EE9F /* PoppyDiary */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A60652E82CAF35300091EE9F /* Build configuration list for PBXNativeTarget "Poppy Diary" */;
+			buildConfigurationList = A60652E82CAF35300091EE9F /* Build configuration list for PBXNativeTarget "PoppyDiary" */;
 			buildPhases = (
 				A60652C02CAF352F0091EE9F /* Sources */,
 				A60652C12CAF352F0091EE9F /* Frameworks */,
@@ -110,16 +110,16 @@
 			fileSystemSynchronizedGroups = (
 				A60652C62CAF352F0091EE9F /* Poppy Diary */,
 			);
-			name = "Poppy Diary";
+			name = PoppyDiary;
 			packageProductDependencies = (
 			);
 			productName = "Poppy Diary";
-			productReference = A60652C42CAF352F0091EE9F /* Poppy Diary.app */;
+			productReference = A60652C42CAF352F0091EE9F /* PoppyDiary.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A60652D32CAF35300091EE9F /* Poppy DiaryTests */ = {
+		A60652D32CAF35300091EE9F /* PoppyDiaryTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A60652EB2CAF35300091EE9F /* Build configuration list for PBXNativeTarget "Poppy DiaryTests" */;
+			buildConfigurationList = A60652EB2CAF35300091EE9F /* Build configuration list for PBXNativeTarget "PoppyDiaryTests" */;
 			buildPhases = (
 				A60652D02CAF35300091EE9F /* Sources */,
 				A60652D12CAF35300091EE9F /* Frameworks */,
@@ -133,16 +133,16 @@
 			fileSystemSynchronizedGroups = (
 				A60652D72CAF35300091EE9F /* Poppy DiaryTests */,
 			);
-			name = "Poppy DiaryTests";
+			name = PoppyDiaryTests;
 			packageProductDependencies = (
 			);
 			productName = "Poppy DiaryTests";
-			productReference = A60652D42CAF35300091EE9F /* Poppy DiaryTests.xctest */;
+			productReference = A60652D42CAF35300091EE9F /* PoppyDiaryTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A60652DD2CAF35300091EE9F /* Poppy DiaryUITests */ = {
+		A60652DD2CAF35300091EE9F /* PoppyDiaryUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A60652EE2CAF35300091EE9F /* Build configuration list for PBXNativeTarget "Poppy DiaryUITests" */;
+			buildConfigurationList = A60652EE2CAF35300091EE9F /* Build configuration list for PBXNativeTarget "PoppyDiaryUITests" */;
 			buildPhases = (
 				A60652DA2CAF35300091EE9F /* Sources */,
 				A60652DB2CAF35300091EE9F /* Frameworks */,
@@ -156,11 +156,11 @@
 			fileSystemSynchronizedGroups = (
 				A60652E12CAF35300091EE9F /* Poppy DiaryUITests */,
 			);
-			name = "Poppy DiaryUITests";
+			name = PoppyDiaryUITests;
 			packageProductDependencies = (
 			);
 			productName = "Poppy DiaryUITests";
-			productReference = A60652DE2CAF35300091EE9F /* Poppy DiaryUITests.xctest */;
+			productReference = A60652DE2CAF35300091EE9F /* PoppyDiaryUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A60652BF2CAF352F0091EE9F /* Build configuration list for PBXProject "Poppy Diary" */;
+			buildConfigurationList = A60652BF2CAF352F0091EE9F /* Build configuration list for PBXProject "PoppyDiary" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A60652C32CAF352F0091EE9F /* Poppy Diary */,
-				A60652D32CAF35300091EE9F /* Poppy DiaryTests */,
-				A60652DD2CAF35300091EE9F /* Poppy DiaryUITests */,
+				A60652C32CAF352F0091EE9F /* PoppyDiary */,
+				A60652D32CAF35300091EE9F /* PoppyDiaryTests */,
+				A60652DD2CAF35300091EE9F /* PoppyDiaryUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		A60652D62CAF35300091EE9F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A60652C32CAF352F0091EE9F /* Poppy Diary */;
+			target = A60652C32CAF352F0091EE9F /* PoppyDiary */;
 			targetProxy = A60652D52CAF35300091EE9F /* PBXContainerItemProxy */;
 		};
 		A60652E02CAF35300091EE9F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A60652C32CAF352F0091EE9F /* Poppy Diary */;
+			target = A60652C32CAF352F0091EE9F /* PoppyDiary */;
 			targetProxy = A60652DF2CAF35300091EE9F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -461,7 +461,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Poppy Diary.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Poppy Diary";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PoppyDiary.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PoppyDiary";
 			};
 			name = Debug;
 		};
@@ -480,7 +480,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Poppy Diary.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Poppy Diary";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PoppyDiary.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PoppyDiary";
 			};
 			name = Release;
 		};
@@ -521,7 +521,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A60652BF2CAF352F0091EE9F /* Build configuration list for PBXProject "Poppy Diary" */ = {
+		A60652BF2CAF352F0091EE9F /* Build configuration list for PBXProject "PoppyDiary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A60652E62CAF35300091EE9F /* Debug */,
@@ -530,7 +530,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A60652E82CAF35300091EE9F /* Build configuration list for PBXNativeTarget "Poppy Diary" */ = {
+		A60652E82CAF35300091EE9F /* Build configuration list for PBXNativeTarget "PoppyDiary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A60652E92CAF35300091EE9F /* Debug */,
@@ -539,7 +539,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A60652EB2CAF35300091EE9F /* Build configuration list for PBXNativeTarget "Poppy DiaryTests" */ = {
+		A60652EB2CAF35300091EE9F /* Build configuration list for PBXNativeTarget "PoppyDiaryTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A60652EC2CAF35300091EE9F /* Debug */,
@@ -548,7 +548,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A60652EE2CAF35300091EE9F /* Build configuration list for PBXNativeTarget "Poppy DiaryUITests" */ = {
+		A60652EE2CAF35300091EE9F /* Build configuration list for PBXNativeTarget "PoppyDiaryUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A60652EF2CAF35300091EE9F /* Debug */,
